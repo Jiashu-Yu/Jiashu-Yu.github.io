@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-ICRA-driving-intelligence-framework
 date: 2025-05-19
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
-paperurl: 'https://jiashu-yu.github.io/files/ICRA2025-driving-intelligence-framework.pdf'
+paperurl: 'https://jiashu-yu.github.io/files/A_Comprehensive_LLM-powered_Framework_for_Driving_Intelligence_Evaluation.pdf'
 authors: "Shanhe You, Xuewen Luo, Xinhe Liang, **Jiashu Yu**, Chen Zheng, Jiangtao Gong"
 ---
 
