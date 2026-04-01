@@ -25,7 +25,7 @@ repository               : "Jiashu-Yu/Jiashu-Yu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "yjs.jpg"
   name             : "Jiashu Yu"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate at Tsinghua University. Interested in Robotics, Reinforcement Learning, and Embodied AI."
