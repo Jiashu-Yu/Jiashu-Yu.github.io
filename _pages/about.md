@@ -40,18 +40,21 @@ redirect_from:
         <p class="eyebrow">Research</p>
         <h2 id="publications-title">Publications</h2>
       </div>
-      <p>Work on intelligent systems that connect perception, reasoning, and action. Publication metadata and links are rendered directly from the existing collection.</p>
+      <p>I study how learning systems can connect perception, reasoning, and action in complex environments.</p>
     </div>
 
     <div class="publication-list">
       {% assign publications = site.publications | sort: 'date' | reverse %}
       {% for post in publications %}
-        {% assign publication_url = post.paperurl | default: post.url %}
         <article class="publication">
           <div class="publication-index" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</div>
           <div>
             <p class="publication-meta">{{ post.venue }} · {{ post.date | date: '%Y' }}</p>
-            <h3><a href="{{ publication_url | relative_url }}"{% if post.paperurl %} target="_blank" rel="noreferrer"{% endif %}>{{ post.title }}</a></h3>
+            {% if post.paperurl %}
+              <h3><a href="{{ post.paperurl }}" target="_blank" rel="noreferrer">{{ post.title }}</a></h3>
+            {% else %}
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            {% endif %}
             <p class="publication-authors">{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             <div class="publication-summary">{{ post.content }}</div>
             <div class="publication-links">
