@@ -11,12 +11,12 @@ redirect_from:
 
 <section class="shell hero" id="about" aria-labelledby="page-title">
   <div>
-    <p class="eyebrow">Robotics · Reinforcement Learning · Embodied AI</p>
+    <p class="eyebrow">Embodied AI · Robot Learning · Navigation &amp; Manipulation</p>
     <h1 id="page-title">Jiashu <span>Yu</span></h1>
 
     <div class="hero-intro">
       <p>I am an undergraduate at <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College, Tsinghua University</a>, pursuing a dual degree in Mechanics and Interdisciplinary Engineering. Currently, I am a visiting research student at <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">NYU AI4CE Lab</a>, advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>.</p>
-      <p>I work on learning-based methods for embodied intelligence. Previously, at Tsinghua University's Institute for AI Industry Research, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a>—now an Associate Professor at Shanghai Jiao Tong University—on LLM/VLM-based autonomous-driving systems. My broader interests include robotics, reinforcement learning, and vision-language-action models.</p>
+      <p>My research interests lie in embodied AI and robot learning, particularly visual navigation and dexterous manipulation. At NYU, I have worked on object-goal navigation and am currently studying contact-rich object reorientation from human hand–object demonstrations. Previously, at Tsinghua University's Institute for AI Industry Research, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a>—now an Associate Professor at Shanghai Jiao Tong University—on LLM/VLM-based autonomous-driving systems.</p>
     </div>
 
     <div class="profile-links" aria-label="Profile links">
@@ -29,7 +29,6 @@ redirect_from:
 
   <figure class="portrait-wrap">
     <img class="portrait" src="{{ '/images/yjs.jpg' | relative_url }}" alt="Portrait of Jiashu Yu">
-    <figcaption class="portrait-caption">NYU AI4CE · Summer 2026</figcaption>
   </figure>
 </section>
 
@@ -40,7 +39,6 @@ redirect_from:
         <p class="eyebrow">Research</p>
         <h2 id="publications-title">Publications</h2>
       </div>
-      <p>I study how learning systems can connect perception, reasoning, and action in complex environments.</p>
     </div>
 
     <div class="publication-list">
