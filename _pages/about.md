@@ -16,7 +16,7 @@ redirect_from:
 
     <div class="hero-intro">
       <p>I am an undergraduate at <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College, Tsinghua University</a>, pursuing a dual degree in Mechanics and Interdisciplinary Engineering. Currently, I am a visiting research student at <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">NYU AI4CE Lab</a>, advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>.</p>
-      <p>I work on learning-based methods for embodied intelligence. Previously, I worked with <a href="https://air.tsinghua.edu.cn/en/info/1046/1188.htm" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a> at Tsinghua University's Institute for AI Industry Research on LLM/VLM-based autonomous-driving systems. My broader interests include robotics, reinforcement learning, and vision-language-action models.</p>
+      <p>I work on learning-based methods for embodied intelligence. Previously, I worked with <a href="https://air.tsinghua.edu.cn/info/1046/1635.htm" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a> at Tsinghua University's Institute for AI Industry Research on LLM/VLM-based autonomous-driving systems. My broader interests include robotics, reinforcement learning, and vision-language-action models.</p>
     </div>
 
     <div class="profile-links" aria-label="Profile links">
