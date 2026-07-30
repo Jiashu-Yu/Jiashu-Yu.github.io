@@ -191,31 +191,71 @@ strong {
   box-shadow: none;
 }
 
-.education-item {
+.affiliation-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.affiliation-card {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+  padding: 18px 20px;
+  border: 1px solid #e4dfe7;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(55, 38, 65, 0.05);
+}
+
+.affiliation-logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 74px;
+}
+
+.affiliation-logo {
+  display: block;
+  width: 100%;
+  max-height: 82px;
+  object-fit: contain;
+}
+
+.affiliation-logo--nyu {
+  max-height: 48px;
+}
+
+.affiliation-heading {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: start;
-  gap: 24px;
-  padding: 7px 0 14px;
-  border-bottom: 1px solid #ebe7ed;
+  gap: 18px;
 }
 
-.education-school {
+.affiliation-institution {
   font-size: 17px;
   font-weight: 700;
 }
 
-.education-program {
+.affiliation-heading time {
+  color: #667085;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.affiliation-role {
   margin-top: 4px;
   color: #334155;
   line-height: 1.5;
 }
 
-.education-item time {
-  color: #660874;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
+.affiliation-body p {
+  margin: 7px 0 0;
+  color: #526071;
+  line-height: 1.5;
 }
 
 .pending-panel,
@@ -351,9 +391,21 @@ strong {
     gap: 12px;
   }
 
-  .education-item {
+  .affiliation-card {
     grid-template-columns: 1fr;
-    gap: 5px;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .affiliation-logo-link {
+    justify-content: flex-start;
+    width: 190px;
+    min-height: 0;
+  }
+
+  .affiliation-heading {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .paper-row--with-media {

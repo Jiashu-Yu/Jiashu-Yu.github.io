@@ -46,21 +46,52 @@ redirect_from:
 
   <section class="site-section" id="experience" aria-labelledby="experience-title">
     <h2 id="experience-title">Research Experience</h2>
-    <div class="timeline-list">
-      <div class="timeline-item pending-row">To be added.</div>
+    <div class="affiliation-list">
+      <article class="affiliation-card">
+        <a class="affiliation-logo-link" href="https://ai4ce.github.io/" target="_blank" rel="noreferrer" aria-label="NYU AI4CE Lab">
+          <img class="affiliation-logo affiliation-logo--nyu" src="{{ '/images/affiliations/nyu-tandon.png' | relative_url }}" alt="NYU Tandon">
+        </a>
+        <div class="affiliation-body">
+          <div class="affiliation-heading">
+            <a class="affiliation-institution" href="https://www.nyu.edu/" target="_blank" rel="noreferrer">New York University</a>
+            <time datetime="2026-03">Mar. 2026 - Present</time>
+          </div>
+          <div class="affiliation-role">Visiting Research Student, <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">AI4CE Lab</a></div>
+          <p>Advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>, working on dexterous manipulation and object navigation.</p>
+        </div>
+      </article>
+
+      <article class="affiliation-card">
+        <a class="affiliation-logo-link" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer" aria-label="Tsinghua University">
+          <img class="affiliation-logo" src="{{ '/images/affiliations/tsinghua-university.png' | relative_url }}" alt="Tsinghua University">
+        </a>
+        <div class="affiliation-body">
+          <div class="affiliation-heading">
+            <a class="affiliation-institution" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Tsinghua University</a>
+            <time>Jun. 2024 - Feb. 2026</time>
+          </div>
+          <div class="affiliation-role">Research Assistant, <a href="https://air.tsinghua.edu.cn/en/info/1065/1241.htm" target="_blank" rel="noreferrer">DISCOVER Lab</a>, <a href="https://air.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Institute for AI Industry Research</a></div>
+          <p>Advised by <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a>, working on an LLM-based autonomous-driving evaluation framework.</p>
+        </div>
+      </article>
     </div>
   </section>
 
   <section class="site-section" id="education" aria-labelledby="education-title">
     <h2 id="education-title">Education</h2>
-    <div class="timeline-list">
-      <div class="education-item">
-        <div class="education-details">
-          <a class="education-school" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Tsinghua University</a>
-          <div class="education-program">B.Sc. in Mechanics &amp; B.Eng. in Interdisciplinary Engineering, <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College</a></div>
+    <div class="affiliation-list">
+      <article class="affiliation-card affiliation-card--education">
+        <a class="affiliation-logo-link" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer" aria-label="Tsinghua University">
+          <img class="affiliation-logo" src="{{ '/images/affiliations/tsinghua-university.png' | relative_url }}" alt="Tsinghua University">
+        </a>
+        <div class="affiliation-body">
+          <div class="affiliation-heading">
+            <a class="affiliation-institution" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Tsinghua University</a>
+            <time datetime="2022">2022 - Present</time>
+          </div>
+          <div class="affiliation-role">B.Sc. in Mechanics &amp; B.Eng. in Interdisciplinary Engineering, <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College</a></div>
         </div>
-        <time datetime="2022">2022 - Present</time>
-      </div>
+      </article>
     </div>
   </section>
 
