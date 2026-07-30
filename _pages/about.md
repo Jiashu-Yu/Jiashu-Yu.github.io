@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Jiashu Yu"
-description: "Jiashu Yu — robotics, reinforcement learning, and embodied AI."
+description: "Jiashu Yu — robotics and robot learning."
 layout: research-home
 author_profile: false
 redirect_from:
@@ -9,45 +9,78 @@ redirect_from:
   - /about.html
 ---
 
-<section class="shell hero" id="about" aria-labelledby="page-title">
-  <div>
-    <p class="eyebrow">Embodied AI · Robot Learning · Navigation &amp; Manipulation</p>
-    <h1 id="page-title">Jiashu <span>Yu</span></h1>
+<div class="shell page-stack">
+  <section class="profile-panel" id="about" aria-labelledby="page-title">
+    <div class="profile-copy">
+      <p class="profile-kicker">Robotics · Robot Learning</p>
+      <h1 id="page-title">Jiashu Yu</h1>
 
-    <div class="hero-intro">
-      <p>I am an undergraduate at <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College, Tsinghua University</a>, pursuing a dual degree in Mechanics and Interdisciplinary Engineering. Currently, I am a visiting research student at <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">NYU AI4CE Lab</a>, advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>.</p>
-      <p>My research interests lie in embodied AI and robot learning, particularly visual navigation and dexterous manipulation. At NYU, I have worked on object-goal navigation and am currently studying contact-rich object reorientation from human hand–object demonstrations. Previously, at Tsinghua University's Institute for AI Industry Research, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a>—now an Associate Professor at Shanghai Jiao Tong University—on LLM/VLM-based autonomous-driving systems.</p>
-    </div>
+      <div class="profile-intro">
+        <p>I am an undergraduate at <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College, Tsinghua University</a>, pursuing a dual degree in Mechanics and Interdisciplinary Engineering. Currently, I am a visiting research student at <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">NYU AI4CE Lab</a>, advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>.</p>
+        <p>My research interests lie in robotics and robot learning. At NYU, I am currently working on object reorientation from human demonstrations and previously worked on object-goal navigation. Before that, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a> at Tsinghua University's Institute for AI Industry Research on LLM/VLM-based autonomous-driving systems.</p>
+      </div>
 
-    <div class="profile-links" aria-label="Profile links">
-      <a href="mailto:{{ site.author.email }}">Email</a>
-      {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noreferrer">Google Scholar</a>{% endif %}
-      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noreferrer">GitHub</a>{% endif %}
-      {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank" rel="noreferrer">LinkedIn</a>{% endif %}
-    </div>
-  </div>
-
-  <figure class="portrait-wrap">
-    <img class="portrait" src="{{ '/images/yjs.jpg' | relative_url }}" alt="Portrait of Jiashu Yu">
-  </figure>
-</section>
-
-<section class="section" id="publications" aria-labelledby="publications-title">
-  <div class="shell">
-    <div class="section-heading">
-      <div>
-        <p class="eyebrow">Research</p>
-        <h2 id="publications-title">Publications</h2>
+      <div class="profile-links" aria-label="Profile links">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noreferrer">Scholar</a>{% endif %}
+        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noreferrer">GitHub</a>{% endif %}
+        {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank" rel="noreferrer">LinkedIn</a>{% endif %}
       </div>
     </div>
 
-    <div class="publication-list">
+    <figure class="portrait-wrap">
+      <img class="portrait" src="{{ '/images/yjs.jpg' | relative_url }}" alt="Portrait of Jiashu Yu">
+    </figure>
+  </section>
+
+  <section class="content-section" id="news" aria-labelledby="news-title">
+    <div class="section-heading">
+      <p>01 / Updates</p>
+      <h2 id="news-title">Recent News</h2>
+    </div>
+    <div class="section-placeholder news-placeholder">
+      <span>Next</span>
+      <p>News items will be added after the layout is finalized.</p>
+    </div>
+  </section>
+
+  <div class="split-sections">
+    <section class="content-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <p>02 / Timeline</p>
+        <h2 id="experience-title">Research Experience</h2>
+      </div>
+      <div class="section-placeholder">
+        <span>To add</span>
+        <p>Roles, affiliations, dates, and advisors.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="education" aria-labelledby="education-title">
+      <div class="section-heading">
+        <p>03 / Background</p>
+        <h2 id="education-title">Education</h2>
+      </div>
+      <div class="section-placeholder">
+        <span>To add</span>
+        <p>Degrees, programs, and academic milestones.</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="content-section" id="research" aria-labelledby="research-title">
+    <div class="section-heading">
+      <p>04 / Selected Work</p>
+      <h2 id="research-title">Research</h2>
+    </div>
+
+    <div class="research-list">
       {% assign publications = site.publications | sort: 'date' | reverse %}
       {% for post in publications %}
-        <article class="publication">
-          <div class="publication-index" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</div>
-          <div>
-            <p class="publication-meta">{{ post.venue }} · {{ post.date | date: '%Y' }}</p>
+        <article class="research-card">
+          <div class="research-year" aria-hidden="true">{{ post.date | date: '%Y' }}</div>
+          <div class="research-copy">
+            <p class="publication-meta">{{ post.venue }}</p>
             {% if post.paperurl %}
               <h3><a href="{{ post.paperurl }}" target="_blank" rel="noreferrer">{{ post.title }}</a></h3>
             {% else %}
@@ -63,5 +96,16 @@ redirect_from:
         </article>
       {% endfor %}
     </div>
-  </div>
-</section>
+  </section>
+
+  <section class="content-section" id="honors" aria-labelledby="honors-title">
+    <div class="section-heading">
+      <p>05 / Recognition</p>
+      <h2 id="honors-title">Honors &amp; Awards</h2>
+    </div>
+    <div class="section-placeholder">
+      <span>To add</span>
+      <p>Tsinghua University awards and other selected honors.</p>
+    </div>
+  </section>
+</div>
