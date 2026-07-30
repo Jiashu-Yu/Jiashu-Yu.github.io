@@ -88,11 +88,11 @@ redirect_from:
     <div class="timeline-list">
       <div class="award-item">
         <time datetime="2025-11">2025.11</time>
-        <span>Science and Technology Innovation Excellence Scholarship</span>
+        <span>Science and Technology Innovation Excellence Scholarship, Tsinghua University</span>
       </div>
       <div class="award-item">
         <time datetime="2024-12">2024.12</time>
-        <span>Academic Excellence Scholarship</span>
+        <span>Academic Excellence Scholarship, Tsinghua University</span>
       </div>
     </div>
   </section>
