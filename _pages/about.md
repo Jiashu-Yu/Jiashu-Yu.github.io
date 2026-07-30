@@ -35,7 +35,7 @@ redirect_from:
     <div class="news-panel">
       <div class="news-item">
         <time datetime="2026-03">2026.03</time>
-        <span>Joined NYU AI4CE as a visiting research student.</span>
+        <span>Joined <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer"><strong>NYU AI4CE</strong></a> as a visiting research student.</span>
       </div>
       <div class="news-item">
         <time datetime="2025-01">2025.01</time>
@@ -86,7 +86,14 @@ redirect_from:
   <section class="site-section" id="honors" aria-labelledby="honors-title">
     <h2 id="honors-title">Honors &amp; Awards</h2>
     <div class="timeline-list">
-      <div class="timeline-item pending-row">To be added.</div>
+      <div class="award-item">
+        <time datetime="2025-11">2025.11</time>
+        <span>Science and Technology Innovation Excellence Scholarship</span>
+      </div>
+      <div class="award-item">
+        <time datetime="2024-12">2024.12</time>
+        <span>Academic Excellence Scholarship</span>
+      </div>
     </div>
   </section>
 </div>
