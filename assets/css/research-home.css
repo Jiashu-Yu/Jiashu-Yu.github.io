@@ -238,6 +238,28 @@ strong {
   box-shadow: none;
 }
 
+.paper-row--with-media {
+  display: grid;
+  grid-template-columns: minmax(260px, 31%) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.paper-figure {
+  display: block;
+  margin: 4px 0 20px;
+  overflow: hidden;
+  border: 1px solid #e3dde7;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.paper-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .paper-content {
   padding: 4px 0 20px;
   color: #334155;
@@ -332,6 +354,16 @@ strong {
   .education-item {
     grid-template-columns: 1fr;
     gap: 5px;
+  }
+
+  .paper-row--with-media {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .paper-figure {
+    max-width: 420px;
+    margin-bottom: 4px;
   }
 
   .paper-content {

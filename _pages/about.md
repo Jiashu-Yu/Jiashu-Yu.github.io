@@ -69,7 +69,12 @@ redirect_from:
     <div class="publication-list">
       {% assign publications = site.publications | sort: 'date' | reverse %}
       {% for post in publications %}
-        <article class="paper-row">
+        <article class="paper-row{% if post.paperurl contains 'A_Comprehensive_LLM-powered_Framework' %} paper-row--with-media{% endif %}">
+          {% if post.paperurl contains 'A_Comprehensive_LLM-powered_Framework' %}
+            <a class="paper-figure" href="{{ post.paperurl }}" target="_blank" rel="noreferrer">
+              <img src="{{ '/images/research/icra-2025-evaluation-framework.png' | relative_url }}" alt="Architecture of the LLM-powered driving intelligence evaluation framework">
+            </a>
+          {% endif %}
           <div class="paper-content">
             {% if post.paperurl %}
               <a class="paper-title" href="{{ post.paperurl }}" target="_blank" rel="noreferrer">{{ post.title }}</a>
