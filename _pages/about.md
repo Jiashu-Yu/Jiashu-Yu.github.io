@@ -15,7 +15,7 @@ redirect_from:
       <div class="profile-copy">
         <h1 class="name" id="page-title">Jiashu Yu</h1>
         <p>I am an undergraduate at <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College, Tsinghua University</a>, pursuing a dual degree in Mechanics and Interdisciplinary Engineering. Currently, I am a visiting research student at <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">NYU AI4CE Lab</a>, advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>.</p>
-        <p>My research interests are in <strong>Robotics</strong> and <strong>Robot Learning</strong>. At NYU, I work on dexterous manipulation and object navigation. Previously, at Tsinghua, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a> on an LLM-based autonomous-driving evaluation framework.</p>
+        <p>My research interests center on learning-based approaches to robotics. At NYU, I work on dexterous manipulation and object navigation. Previously, at Tsinghua, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a> on an LLM-based autonomous-driving evaluation framework.</p>
         <p class="contact-links">
           <a href="mailto:{{ site.author.email }}">Email</a>
           {% if site.author.googlescholar %}<span>/</span> <a href="{{ site.author.googlescholar }}" target="_blank" rel="noreferrer">Scholar</a>{% endif %}
@@ -54,7 +54,13 @@ redirect_from:
   <section class="site-section" id="education" aria-labelledby="education-title">
     <h2 id="education-title">Education</h2>
     <div class="timeline-list">
-      <div class="timeline-item pending-row">To be added.</div>
+      <div class="education-item">
+        <div class="education-details">
+          <a class="education-school" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Tsinghua University</a>
+          <div class="education-program">B.Sc. in Mechanics &amp; B.Eng. in Interdisciplinary Engineering, <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College</a></div>
+        </div>
+        <time datetime="2022">2022 - Present</time>
+      </div>
     </div>
   </section>
 

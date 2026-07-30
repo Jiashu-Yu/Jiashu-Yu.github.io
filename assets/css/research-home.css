@@ -191,6 +191,33 @@ strong {
   box-shadow: none;
 }
 
+.education-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 24px;
+  padding: 7px 0 14px;
+  border-bottom: 1px solid #ebe7ed;
+}
+
+.education-school {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.education-program {
+  margin-top: 4px;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.education-item time {
+  color: #660874;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 .pending-panel,
 .pending-row {
   color: #958b9c;
@@ -300,6 +327,11 @@ strong {
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
+  }
+
+  .education-item {
+    grid-template-columns: 1fr;
+    gap: 5px;
   }
 
   .paper-content {
