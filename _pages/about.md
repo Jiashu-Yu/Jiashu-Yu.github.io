@@ -70,7 +70,7 @@ redirect_from:
             <a class="affiliation-institution" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Tsinghua University</a>
             <time>Jun. 2024 - Feb. 2026</time>
           </div>
-          <div class="affiliation-role">Research Assistant, <a href="https://air.tsinghua.edu.cn/en/info/1065/1241.htm" target="_blank" rel="noreferrer">DISCOVER Lab</a>, <a href="https://air.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Institute for AI Industry Research</a></div>
+          <div class="affiliation-role">Research Assistant, <a href="https://www.discover-lab.com/" target="_blank" rel="noreferrer">DISCOVER Lab</a>, <a href="https://air.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Institute for AI Industry Research</a></div>
           <p>Advised by <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a>, working on an LLM-based autonomous-driving evaluation framework.</p>
         </div>
       </article>
