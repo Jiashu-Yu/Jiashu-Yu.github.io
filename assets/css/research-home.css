@@ -17,13 +17,13 @@ body {
 }
 
 a {
-  color: #5b3b73;
+  color: #660874;
   text-decoration: none;
 }
 
 a:hover,
 a:focus-visible {
-  color: #925b3f;
+  color: #922a9b;
   text-decoration: none;
 }
 
@@ -195,7 +195,7 @@ strong {
 }
 
 .paper-title {
-  color: #5b3b73;
+  color: #660874;
   font-size: 15px;
   font-weight: 700;
   line-height: 1.3;
