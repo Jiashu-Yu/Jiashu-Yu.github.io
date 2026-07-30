@@ -32,7 +32,16 @@ redirect_from:
 
   <section class="site-section" id="news" aria-labelledby="news-title">
     <h2 id="news-title">Recent News</h2>
-    <div class="news-panel pending-panel">To be added.</div>
+    <div class="news-panel">
+      <div class="news-item">
+        <time datetime="2026-03">2026.03</time>
+        <span>Joined NYU AI4CE as a visiting research student.</span>
+      </div>
+      <div class="news-item">
+        <time datetime="2025-01">2025.01</time>
+        <span><a href="https://jiashu-yu.github.io/files/A_Comprehensive_LLM-powered_Framework_for_Driving_Intelligence_Evaluation.pdf"><strong>A Comprehensive LLM-Powered Framework for Driving Intelligence Evaluation</strong></a> was accepted to <strong>ICRA 2025</strong>.</span>
+      </div>
+    </div>
   </section>
 
   <section class="site-section" id="experience" aria-labelledby="experience-title">

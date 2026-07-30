@@ -150,6 +150,26 @@ strong {
   box-shadow: none;
 }
 
+.news-item {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 18px;
+  padding: 7px 0 12px;
+  border-bottom: 1px solid #ebe7ed;
+  line-height: 1.55;
+}
+
+.news-item time {
+  color: #660874;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.news-item:last-child {
+  border-bottom: 0;
+}
+
 .timeline-list {
   display: grid;
   gap: 0;
