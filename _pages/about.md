@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Jiashu Yu"
-description: "Jiashu Yu — robotics and robot learning."
+description: "Jiashu Yu - undergraduate at Tsinghua University and visiting researcher at NYU AI4CE, working on learning-based approaches to robotics."
 layout: research-home
 author_profile: false
 redirect_from:
