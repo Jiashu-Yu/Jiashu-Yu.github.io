@@ -17,7 +17,7 @@ redirect_from:
 
       <div class="profile-intro">
         <p>I am an undergraduate at <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College, Tsinghua University</a>, pursuing a dual degree in Mechanics and Interdisciplinary Engineering. Currently, I am a visiting research student at <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">NYU AI4CE Lab</a>, advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>.</p>
-        <p>My research interests lie in robotics and robot learning. At NYU, I am currently working on object reorientation from human demonstrations and previously worked on object-goal navigation. Before that, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a> at Tsinghua University's Institute for AI Industry Research on LLM/VLM-based autonomous-driving systems.</p>
+        <p>My research interests are in robotics and robot learning. At NYU, I currently work on object reorientation from human demonstrations, following earlier work on object-goal navigation. Previously, at Tsinghua, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a> on LLM/VLM-based autonomous-driving systems.</p>
       </div>
 
       <div class="profile-links" aria-label="Profile links">
