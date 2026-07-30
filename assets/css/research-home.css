@@ -2,13 +2,42 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Academicons";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/academicons.woff") format("woff");
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  background: #f8f7fa;
+  background-color: #f8f7fa;
+  background-image:
+    radial-gradient(circle at 8% 6%, rgba(102, 8, 116, 0.075), transparent 30rem),
+    radial-gradient(circle at 92% 18%, rgba(87, 6, 140, 0.055), transparent 32rem),
+    linear-gradient(180deg, #fbfafc 0%, #f6f4f8 56%, #faf9fb 100%);
+  background-repeat: no-repeat;
   color: #1f2937;
   font-family: Lato, Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -111,16 +140,84 @@ strong {
   box-shadow: 0 7px 20px rgba(55, 38, 65, 0.1);
 }
 
+.personal-interests {
+  margin-top: 12px !important;
+  color: #526071 !important;
+}
+
+.interest-emoji {
+  display: inline-block;
+  margin-left: 2px;
+}
+
 .contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
   margin-top: 16px !important;
   text-align: left;
 }
 
 .contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px;
+  border-radius: 6px;
   font-weight: 700;
+  transition: background-color 150ms ease, color 150ms ease;
 }
 
-.contact-links span,
+.contact-links a:hover,
+.contact-links a:focus-visible {
+  background: rgba(102, 8, 116, 0.08);
+}
+
+.contact-icon {
+  display: inline-block;
+  width: 1.1em;
+  text-align: center;
+  font-style: normal;
+  line-height: 1;
+}
+
+.contact-icon::before {
+  display: block;
+}
+
+.contact-icon--email {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.contact-icon--email::before {
+  content: "\f0e0";
+}
+
+.contact-icon--scholar {
+  font-family: "Academicons";
+  font-weight: 400;
+}
+
+.contact-icon--scholar::before {
+  content: "\e9d4";
+}
+
+.contact-icon--github,
+.contact-icon--linkedin {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.contact-icon--github::before {
+  content: "\f09b";
+}
+
+.contact-icon--linkedin::before {
+  content: "\f08c";
+}
+
 .paper-links span {
   margin: 0 5px;
   color: #a49aaa;
@@ -376,8 +473,12 @@ strong {
     max-width: 260px;
   }
 
-  .name,
+  .name {
+    text-align: center;
+  }
+
   .contact-links {
+    justify-content: center;
     text-align: center;
   }
 
