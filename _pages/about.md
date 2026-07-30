@@ -25,7 +25,7 @@ redirect_from:
       </div>
 
       <figure class="profile-photo-cell">
-        <img class="profile-photo" src="{{ '/images/yjs.jpg' | relative_url }}" alt="Portrait of Jiashu Yu">
+        <img class="profile-photo" src="{{ '/images/yjs-robot.jpg' | relative_url }}" alt="Jiashu Yu with a robot">
       </figure>
     </div>
   </section>

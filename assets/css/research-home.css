@@ -93,21 +93,21 @@ strong {
 }
 
 .profile-photo-cell {
-  flex: 0 0 29%;
+  flex: 0 0 34%;
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 24px 30px 24px 12px;
+  padding: 24px 26px 24px 12px;
 }
 
 .profile-photo {
   width: 100%;
-  max-width: 205px;
-  aspect-ratio: 4 / 5;
+  max-width: 260px;
+  aspect-ratio: 4 / 3;
   border: 1px solid #e3dde7;
   border-radius: 8px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
   box-shadow: 0 7px 20px rgba(55, 38, 65, 0.1);
 }
 
@@ -261,7 +261,7 @@ strong {
   }
 
   .profile-photo {
-    max-width: 170px;
+    max-width: 260px;
   }
 
   .name,
