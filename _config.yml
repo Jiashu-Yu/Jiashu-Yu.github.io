@@ -13,7 +13,7 @@ title                    : "Jiashu Yu"
 title_separator          : "-"
 name                     : &name "Jiashu Yu"
 description              : &description >
-  Jiashu Yu is an undergraduate at Tsinghua University and a visiting researcher at NYU AI4CE,
+  Jiashu Yu is an undergraduate at Tsinghua University and a research assistant at NYU AI4CE,
   working on learning-based approaches to robotics.
 url                      : "https://jiashu-yu.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -28,7 +28,7 @@ author:
   avatar           : "yjs.jpg"
   name             : "Jiashu Yu"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate at Tsinghua University and visiting researcher at NYU AI4CE, working on learning-based approaches to robotics."
+  bio              : "Undergraduate at Tsinghua University and research assistant at NYU AI4CE, working on learning-based approaches to robotics."
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL
