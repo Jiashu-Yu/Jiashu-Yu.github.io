@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Jiashu Yu"
-description: "Jiashu Yu - undergraduate at Tsinghua University and visiting researcher at NYU AI4CE, working on learning-based approaches to robotics."
+description: "Jiashu Yu - undergraduate at Tsinghua University and research assistant at NYU AI4CE, working on learning-based approaches to robotics."
 layout: research-home
 author_profile: false
 redirect_from:
@@ -14,7 +14,7 @@ redirect_from:
     <div class="profile-row">
       <div class="profile-copy">
         <h1 class="name" id="page-title">Jiashu Yu</h1>
-        <p>I am an undergraduate at <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College, Tsinghua University</a>, pursuing a dual degree in Mechanics and Interdisciplinary Engineering. Currently, I am a visiting researcher at <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">NYU AI4CE Lab</a>, advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>.</p>
+        <p>I am an undergraduate at <a href="https://www.xjc.tsinghua.edu.cn/" target="_blank" rel="noreferrer">Xingjian College, Tsinghua University</a>, pursuing a dual degree in Mechanics and Interdisciplinary Engineering. Currently, I am a research assistant at <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">NYU AI4CE Lab</a>, advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>.</p>
         <p>My research interests center on learning-based approaches to robotics. At NYU, I work on dexterous manipulation and object navigation. Previously, at Tsinghua, I worked with <a href="https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/69a8d4cfe67ee39d2475bd96" target="_blank" rel="noreferrer">Prof. Jiangtao Gong</a> on an LLM-based autonomous-driving evaluation framework.</p>
         <p class="personal-interests">Outside of research, I enjoy playing basketball <span class="interest-emoji" role="img" aria-label="basketball">🏀</span> and singing <span class="interest-emoji" role="img" aria-label="microphone">🎤</span>.</p>
         <p class="contact-links" aria-label="Profile links">
@@ -36,7 +36,7 @@ redirect_from:
     <div class="news-panel">
       <div class="news-item">
         <time datetime="2026-03">2026.03</time>
-        <span>Joined <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer"><strong>NYU AI4CE</strong></a> as a visiting researcher.</span>
+        <span>Joined <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer"><strong>NYU AI4CE</strong></a> as a research assistant.</span>
       </div>
       <div class="news-item">
         <time datetime="2025-01">2025.01</time>
@@ -57,7 +57,7 @@ redirect_from:
             <a class="affiliation-institution" href="https://www.nyu.edu/" target="_blank" rel="noreferrer">New York University</a>
             <time datetime="2026-03">Mar. 2026 - Present</time>
           </div>
-          <div class="affiliation-role">Visiting Researcher, <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">AI4CE Lab</a></div>
+          <div class="affiliation-role">Research Assistant, <a href="https://ai4ce.github.io/" target="_blank" rel="noreferrer">AI4CE Lab</a>, <a href="https://robotics.engineering.nyu.edu/" target="_blank" rel="noreferrer">CREO</a></div>
           <p>Advised by <a href="https://engineering.nyu.edu/faculty/chen-feng" target="_blank" rel="noreferrer">Prof. Chen Feng</a>, working on dexterous manipulation and object navigation.</p>
         </div>
       </article>
